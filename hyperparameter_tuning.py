@@ -57,4 +57,4 @@ for num_units in [8, 16]:
                   }
             model_run(hparams, log_seq)
             log_seq += 1
-            
+#to view logs, write following in the prompt: tensorboard --logdir logs
